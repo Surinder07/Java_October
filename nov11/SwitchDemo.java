@@ -18,7 +18,7 @@ public class SwitchDemo {
         // integer
         switch (input){
             case 1:
-                System.out.println("Pressed switch case 1 ");
+
                 break;
 
             case 2 :
@@ -32,6 +32,7 @@ public class SwitchDemo {
             default:
                 System.out.println("Invalid input ");
         }
+        // do you want to continue ? (Y , N )
     }
 }
 // user input
