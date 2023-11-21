@@ -3,6 +3,9 @@ package nov18;
 import java.util.Scanner;
 
 public class Greeting {
+
+    String name = "Peter";
+
     public static void main(String[] args) {
         // input from user
         Scanner scanner = new Scanner(System.in);
@@ -35,3 +38,9 @@ public class Greeting {
 //  Ola Surinder
 
 // method overloading vs method overriding [inheritance ]
+// ==  also checks the memory
+// .equals  -- compares the content of the string
+//
+// English   English
+
+// Class Object Arrays Strings
