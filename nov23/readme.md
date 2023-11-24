@@ -14,4 +14,3 @@ before actually gets merged to main branch
 ## git pull
 bringin latest changes from git remote[github] to local[laptop]
 
-## branch protection rule 
