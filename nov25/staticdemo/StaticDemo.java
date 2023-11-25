@@ -1,4 +1,4 @@
-package nov25;
+package nov25.staticdemo;
 
 public class StaticDemo {
 

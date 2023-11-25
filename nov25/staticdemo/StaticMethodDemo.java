@@ -1,4 +1,4 @@
-package nov25;
+package nov25.staticdemo;
 
 public class StaticMethodDemo {
 
@@ -13,8 +13,7 @@ public class StaticMethodDemo {
 
     public static void main(String[] args) {
 
-       StaticMethodDemo s1 = new StaticMethodDemo();
-       s1.show();
+        StaticMethodDemo.show();
 
 
 
