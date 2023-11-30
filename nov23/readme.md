@@ -14,3 +14,17 @@ before actually gets merged to main branch
 ## git pull
 bringin latest changes from git remote[github] to local[laptop]
 
+## more changes on develop
+
+
+## create a PR for , added a new repo , collborators , 
+-- branch permissions --- create PR 
+
+1. create a branch from staging -- yourname 
+2. create PR to staging 
+
+
+
+## Home take assignment 
+repeat everything on bitbucket
+
