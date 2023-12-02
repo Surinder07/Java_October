@@ -6,3 +6,23 @@ String backwards the same way - example - "madam" }
 4. Given a string containing just the characters '(', ')', '{', '}', '[' and ']', determine if the input string is valid. The brackets must close in the correct order.
 5. Write a Java program to get the length of a given string.
 6. Write a Java program to convert all characters in a string to uppercase.
+
+
+// Big O notations 
+// time compelxity , space complexity 
+
+                    0 1 2 3 4  
+Palindrome  ----?   m a d a m ------
+racecar
+madam
+
+Stack ----> 
+                - length 
+Remotee - sort s1 - Arrays.sort 
+
+erotem - sort S2
+
+
+
+
+
