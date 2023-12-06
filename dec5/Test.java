@@ -17,4 +17,8 @@ recap
 5. access modifiers
  // super
         // variable , method , constructor
+
+
+        Inheritance --- relationship ? IS-A
+        HAS-A relationship
  */

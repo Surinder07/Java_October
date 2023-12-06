@@ -78,12 +78,12 @@ C*
 
               Hierachical :
               BankAccount : String accountHolder, double  balance
-              method : displayInfo
+              method : displayInfo, addFunds, withdraw funds, balance()
 
               Savings                        Checking Account
               double interest rate           double overdraft limit
 
-                      Savings        currentAccount
+                      Savings          Checking checking = new Checking();
 
 /
  */
