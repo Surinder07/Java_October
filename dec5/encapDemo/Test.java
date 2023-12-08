@@ -1,5 +1,7 @@
 package dec5.encapDemo;
 
+import java.io.FileWriter;
+
 public class Test {
     public static void main(String[] args) {
 
@@ -15,6 +17,7 @@ public class Test {
 
 
         user.userLogin("Ekam","password");
+        FileWriter
 
     }
 }
