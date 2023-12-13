@@ -9,8 +9,5 @@
 create music player 
 
     media player --- >  play , pause , fast foward, rewind q
-
 audio media player      video media player [video feature]
-
-
 Youtube  , Amazon music , Apple music, spotify 
