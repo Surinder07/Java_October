@@ -17,7 +17,7 @@ public class Test {
         // 5% increment -->
         // list of all with salary 1000 * 5
         // Pankaj * 5
-        List<Integer> list = new LinkedList<>();
+        List list = new LinkedList<>();
         list.add(10);
         list.add(20);
         list.add(30);
