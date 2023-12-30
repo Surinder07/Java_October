@@ -22,3 +22,11 @@ find out the employees having the highest salary [using java 8]
 TreeSet --    no duplicates, elements are stored in ascending order , null not allowed
 LinkedHashSet -- order of insertion is maintained, no duplicates, null allowed 
 
+
+## MAP [most important for interview ] 
+### internal implementaion of map -- most asked interview question. 
+
+
+1. HashMap
+2. TreeMap
+3. LinkedHashMap
