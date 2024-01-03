@@ -26,7 +26,7 @@ TreepMap
 LinkedHashMap
 
 
-misc --> ConcurrentHashMap, EnumMap
+misc --> synchronizedMap,ConcurrentHashMap, EnumMap
 
 
 ## HashMap 
@@ -43,3 +43,14 @@ How to create hashmap
 2. Map which takes initial capacity  ---
 3. initial  cap and load factor  -- 200, 50
 4. which map as argument 
+
+## TreeMap
+stores in sorted order [what type of order treemap ] - ascending order
+does not allow null keys 
+
+
+## Comparable 
+
+negative --- less than    10 , 20   10-20 = -10  
+0 ---- equal 
+positive --- greater 

@@ -33,13 +33,9 @@ public class HashMapDemo {
         //System.out.println(marks.isEmpty());
         System.out.println(marks.containsValue(1));
         System.out.println(marks.containsKey("Java"));
-
         marks.replace("Hindi", 75);
-
         marks.replace("Computer", 99, 88);
-
         System.out.println(marks);
-
         System.out.println(marks.containsKey("Maths"));
         System.out.println(marks.containsValue(125));
 
