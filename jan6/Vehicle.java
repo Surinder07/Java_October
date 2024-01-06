@@ -11,7 +11,6 @@ public class Vehicle {
         this.makeYear = makeYear;
     }
 
-
     @Override
     public String toString() {
         return "Vehicle{" +

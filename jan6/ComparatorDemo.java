@@ -1,11 +1,12 @@
 package jan6;
 
+import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-public class ComparatorDemo {
+public class ComparatorDemo implements Serializable {
     public static void main(String[] args) {
 
         List<Vehicle> list = new ArrayList<>();
@@ -16,11 +17,10 @@ public class ComparatorDemo {
         list.add(new Vehicle("BMW",2015 ));
         list.add(new Vehicle("VW",2024 ));
 
-        Collections.sort(list, new BrandComparator());
+        Collections.sort(list, new MakeYearComparator());
 
         for (Vehicle l: list ) {
             System.out.println(""+l.brand  +"  "+l.makeYear);
-
         }
 
         //Comparator
