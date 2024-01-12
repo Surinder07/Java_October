@@ -138,11 +138,66 @@ WHERE EMPLOYEE_SALARY > 40000 AND EMPLOYEE_ADDRESS = 'JAPAN';
 
 -- CAN YOU FIND EMPLOYEES FROM JAPAN AND SALARY GREATER THAN 50K
 
+------
+## Database January 11 , 2024
+-- recap
+-- connected the database aws - rds
+-- create tables, create database, CRUD from tables , AND OR
+-- constraints
+
+
+show databases;
+use Employee;
+
+show tables;
+
+select * from EMPLOYEE;
+select * from SALARY;
+select * from DEPT_MANAGER;
+select * from TITLES;
 
 
 
+-- functions
+-- MIN
+-- return min salary from the salary table
+select MIN(EMPLOYEE_SALARY) from EMPLOYEE;
 
- 
- 
- 
- 
+-- MAX
+select MAX(EMPLOYEE_SALARY) from EMPLOYEE;
+
+
+-- COUNT
+select COUNT(EMPLOYEE_SALARY) from EMPLOYEE
+where EMPLOYEE_SALARY > 50000;
+
+-- how many employess are there
+select COUNT(*) from EMPLOYEE;
+
+-- SUM
+select SUM(EMPLOYEE_SALARY) from EMPLOYEE;
+
+-- AVG
+select AVG(EMPLOYEE_SALARY) from EMPLOYEE;
+
+-- 2-3 interview questins, can you get the maximum salary from employee table?
+-- second highest salary
+-- do you know about joins,
+
+-- create a Student_ table,
+-- id, name , email, age, marks
+--  add upto  5 records
+--  find the students with highest marks,
+-- find the average age of students
+--  find the number of students with marks greater than 90
+
+-- 1, "Arpinder", "email", "25", 90
+--                      26 , 80 , 95
+
+
+-- select * from STUDENT_ARPINDER;
+-- insert into STUDENT_ARPINDER (id, name, email, age, marks)
+-- values (1001, 'Mike', 'mike@gmail.com', 25, 87);
+
+
+  
